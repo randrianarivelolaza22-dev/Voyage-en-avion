@@ -1,0 +1,259 @@
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* BODY */
+
+body {
+    Background-image:url("voyage.jpg");
+    padding: 20px; 
+}
+
+/* CONTENEUR */
+
+.cv-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+
+/* CV */
+
+.cv {
+    background: #ffffff;
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+/* ANIMATION AU SURVOL */
+
+.cv:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+
+/* COULEURS */
+
+.cv-blue .left {
+    background: #1e90ff;
+}
+
+.cv-green .left {
+    background: #ff4040;
+}
+
+.cv-orange .left {
+    background: #f800ff;
+}
+
+
+/* COLONNE GAUCHE */
+
+.left {
+    width: 35%;
+    color: #ffffff;
+    padding: 20px;
+}
+
+
+/* COLONNE DROITE */
+
+.right {
+    width: 65%;
+    padding: 20px;
+}
+
+
+/* IMAGE */
+
+#image2 {
+    width:100%;
+    border-radius: 100%;
+    border: 3px solid #fff;
+    margin-bottom: 10px;
+}
+#image1 {
+    width:200px;
+    height: 200px;
+    border-radius: 300%;
+    border: 3px solid #fff;
+    margin-bottom: 10px;
+}
+
+/* TEXTES */
+
+h1 {
+    font-size: 70px;
+    text-align: center;
+    Color:#6affe0;
+  text-shadow:10px 10px 10px #ff152a; 
+
+}
+
+.job {
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 10px;
+    margin:0px;
+    border-bottom: 1px solid #ccc;
+    Color:brown;
+    
+}
+h3 {
+    font-size: 20px ;
+    margin: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+h4{
+    font-size: 80px ;
+    margin: 10px 0;
+    border-bottom: 1px solid #ccc;
+    padding: 30px;
+    Color:white ;
+    Text-align:center;
+   text-shadow:10px 10px 10px #f8ff2b;  
+
+}
+Header{
+Background-image:url("av.jpg"); background-size:cover;
+                     background-position:center;
+                     background-repeat:no-repeat;
+                     background-attachment:fixed;
+                     min-height:50vh;
+     border:solid 10px red; border-radius:1em  
+  border:solid 1px black; -webkit-box-shadow:-5px-5px #888; box-shadow:-5px-5px #888; 
+  border:solid 1px lime; border-radius:5em;
+   Padding:30px;}                   
+}
+}
+H5{
+    Text-align:center ;
+}
+
+p,
+li {
+    font-size: 13px;
+    margin-bottom: 6px;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/* BOUTON PDF */
+
+.btn-pdf {
+    display: block;
+    margin-top: 15px;
+    padding: 8px;
+    text-align: center;
+    background: #ffffff;
+    color: #333;
+    text-decoration: none;
+    font-size: 13px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s, color 0.3s;
+}
+
+.btn-pdf:hover {
+    background: #000;
+    color: #ffffff;
+}
+
+
+/* RESPONSIVE TABLETTE */
+
+@media (max-width: 600px) {
+    .cv-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+/* RESPONSIVE MOBILE */
+
+@media (max-width: 600px) {
+    .cv-container {
+        grid-template-columns: 1fr;
+    }
+    .cv {
+        flex-direction: column;
+    }
+    .left,
+    .right {
+        width: 100%;
+    }
+   H5{
+       Font-size:90px;
+       Margin:50px;
+   } 
+       button{color:black;
+     margin:20px; 
+     Padding:30px ;
+ Align-items:center;
+Font-size:30px ;
+ Background-color:lime ;
+ Border:2px solid #333;
+ border-radius:2em;
+ background:linear-gradient(90deg,#90ff55,#1523ff);}
+   
+} 
+button{color:black;
+     margin:20px; 
+     Padding:30px ;
+ Align-items:center;
+Font-size:30px ;
+ Background-color:lime ;
+ Border:2px solid #333;
+ border-radius:2em;
+ background:linear-gradient(90deg,#90ff55,#1523ff);}
+navbar{
+    Display:flex;
+    Justify-content:space-everly;
+    Align-items:center ;
+    Flex-wrap:warp;
+    Padding:50px;
+    Margin:20px;
+    
+}
+Div{  font-size: 13px;
+    
+}
+
+ H1{
+ Color:#f8ff2b;
+ border:solid 0px black; border-radius:2em;background:linear-gradient(90deg,#3cff2b, #3c2bff;
+ } 
+ H5{
+ Font-size:90px;
+ Padding:10px;
+ Color:white;
+ Margin:50px;
+ font-style: italic;
+ 
+}
+fieldset{background-color:red;
+ text-shadow:10px 10px 10px #ff0049;}
+ Banniere {
+      border:solid 0px black; border-radius:1em;
+  
+ }
+a:active {color:#0000F}
